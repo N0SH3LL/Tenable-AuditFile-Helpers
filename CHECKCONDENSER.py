@@ -18,7 +18,7 @@ def transform_items():
     # Output skeleton for logic
     output = f"# {description}\n"
     output += "  <if>\n"
-    output += '    <condition type:"AND">\n'
+    output += '    <condition auto: "FAILED" type:"AND">\n'
 
     # Split input text into lines
     lines = input_text.split('\n')
